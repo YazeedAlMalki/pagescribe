@@ -1,0 +1,28 @@
+{
+  "version": "0.3.0",
+  "status": "beta publication candidate",
+  "date": "2026-10-05",
+  "package": "MarkItDown-0.3.0.zip",
+  "bytes": 6384720,
+  "sha256": "ca0ef940d56b4fcabbc68c192ef8b8e257f31add3564eff5d9651a1ffd0808a4",
+  "files": 258,
+  "changesFromOriginal": [
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "completeRuntimeAssetEquality": true,
+  "nodeTests": {
+    "passed": 78,
+    "failed": 0
+  },
+  "staticFilesChecked": 258,
+  "edgeSource": "passed: regression and 10 Phase 2 groups",
+  "edgePackage": "passed: regression and 10 Phase 2 groups",
+  "manualChrome": "partial: 2 of 9 original checklist groups complete (22.2%); physical disconnect and low-memory hardware waived; unwaived native gaps remain",
+  "waivedByUser": [
+    "physical network disconnection",
+    "real low-memory hardware"
+  ],
+  "projectLicense": "MIT",
+  "published": false
+}

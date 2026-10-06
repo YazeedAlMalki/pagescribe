@@ -1,0 +1,108 @@
+{
+  "acquiredAt": "2026-10-05T05:13:15.252Z",
+  "source": "Project Gutenberg ebook 76, Adventures of Huckleberry Finn by Mark Twain; public domain in the USA",
+  "assembly": "Twelve distinct unmodified scanned chapter-opening images placed one per PDF page; no repeated pages or text layer. Layout container produced locally with pdf-lib.",
+  "files": [
+    {
+      "name": "c01-02.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c01-02.jpg",
+      "bytes": 186409,
+      "sha256": "2dd4a04d7eb0cc9b10cc2a50cfd51c373aae8bbd6f51a7fbe0a264b6c6104f8f",
+      "width": 792,
+      "height": 1040
+    },
+    {
+      "name": "c02-22.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c02-22.jpg",
+      "bytes": 180973,
+      "sha256": "16370277693c17a2485b6a9daefdddf4d1f5a63684a57777fd86606d5008a6c6",
+      "width": 800,
+      "height": 981
+    },
+    {
+      "name": "c03-29.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c03-29.jpg",
+      "bytes": 163975,
+      "sha256": "3bcdaf988e0578b772c78a1dc4dd038a8b35540855469cedbf133ba8d3874bc5",
+      "width": 770,
+      "height": 995
+    },
+    {
+      "name": "c04-34.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c04-34.jpg",
+      "bytes": 163297,
+      "sha256": "32d2f2b6d453f853ef7701a5ff0936b550ebf36069a8175bf06d9b9d31acd193",
+      "width": 756,
+      "height": 966
+    },
+    {
+      "name": "c05-39.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c05-39.jpg",
+      "bytes": 161893,
+      "sha256": "d791c98ce86463923d84f88e07b6a5e280f0490ce8a78021fd2037ca4edb0d09",
+      "width": 794,
+      "height": 981
+    },
+    {
+      "name": "c06-45.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c06-45.jpg",
+      "bytes": 174290,
+      "sha256": "9270e12b0970e5c7ab061e8e4df042ca89477424e8588d867e742135f2cfb23b",
+      "width": 786,
+      "height": 1013
+    },
+    {
+      "name": "c07-53.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c07-53.jpg",
+      "bytes": 152038,
+      "sha256": "6bbe18d9f2c012b690b2963ba2ea56dc74955bf43aade5fe94b43e16b9571f92",
+      "width": 790,
+      "height": 979
+    },
+    {
+      "name": "c08-61.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c08-61.jpg",
+      "bytes": 184036,
+      "sha256": "9b920086292935610ecf0e4a6a7e853c0e2ce99685ccc95aeecaa4f083eb230c",
+      "width": 796,
+      "height": 973
+    },
+    {
+      "name": "c09-74.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c09-74.jpg",
+      "bytes": 183824,
+      "sha256": "7f02e3b201500779d34b4859669acd10410cadf369a13ceebc3aff1ce510228b",
+      "width": 800,
+      "height": 1020
+    },
+    {
+      "name": "c10-79.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c10-79.jpg",
+      "bytes": 196228,
+      "sha256": "afb7a1e725696f378e2ce73f99a2cb1bac3eb3e82dd7886ebc679c3eac7a7333",
+      "width": 788,
+      "height": 1018
+    },
+    {
+      "name": "c11-84.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c11-84.jpg",
+      "bytes": 144625,
+      "sha256": "3ca2b746fc017594d81dc932afdc36708f00eb6734b614dbd7cb8e0949f6bfff",
+      "width": 779,
+      "height": 990
+    },
+    {
+      "name": "c12-093.jpg",
+      "url": "https://raw.githubusercontent.com/GITenberg/Adventures-of-Huckleberry-Finn_76/master/76-h/images/c12-093.jpg",
+      "bytes": 177317,
+      "sha256": "91aab55bbfa634d31cf1b260682e44b0f47c542d4acc7ac4b3847f2250a9bf0b",
+      "width": 809,
+      "height": 977
+    }
+  ],
+  "pdf": {
+    "name": "chapter-openings-12.pdf",
+    "bytes": 2073945,
+    "sha256": "4d149a7c7947747d224a5092f2933b660176306682606a1f818f139c58913668"
+  }
+}

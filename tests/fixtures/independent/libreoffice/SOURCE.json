@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-05T05:20:42.365Z",
+  "repository": "https://github.com/LibreOffice/core",
+  "commit": "cf80890d16f7ef318155efe5843f99153d199e07",
+  "provenance": "Independent desktop regression fixtures from LibreOffice sd/qa/unit/data/pptx; Application metadata recorded as producer evidence, not proof of a local desktop save.",
+  "files": [
+    {
+      "name": "bullet-indent.pptx",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/cf80890d16f7ef318155efe5843f99153d199e07/sd/qa/unit/data/pptx/bullet-indent.pptx",
+      "bytes": 12021,
+      "sha256": "2994a749b65c1cf11f2be25e0d96bf6f3480eb9d531c47874163aad191fc877e",
+      "application": "Microsoft Office PowerPoint",
+      "warnings": [
+        "Slide text follows shape order. Master/layout text, inherited bullet styles, charts, SmartArt, animations and visual positioning may be omitted."
+      ],
+      "slides": 1
+    },
+    {
+      "name": "group.pptx",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/cf80890d16f7ef318155efe5843f99153d199e07/sd/qa/unit/data/pptx/group.pptx",
+      "bytes": 50247,
+      "sha256": "b8aedd7a9a09b46ec691bc5c92e141eb874606f5601d14ac51e3ec1f71a516bd",
+      "application": "Microsoft Office PowerPoint",
+      "warnings": [
+        "Slide text follows shape order. Master/layout text, inherited bullet styles, charts, SmartArt, animations and visual positioning may be omitted."
+      ],
+      "slides": 2
+    },
+    {
+      "name": "group-rot.pptx",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/cf80890d16f7ef318155efe5843f99153d199e07/sd/qa/unit/data/pptx/group-rot.pptx",
+      "bytes": 39796,
+      "sha256": "dfda3cecf7a04edbf695ed4e23707087db1aa08c8b1b68d3ab9f572210bc744e",
+      "application": "Microsoft Office PowerPoint",
+      "warnings": [
+        "Slide text follows shape order. Master/layout text, inherited bullet styles, charts, SmartArt, animations and visual positioning may be omitted.",
+        "Slide 1: No supported text was found."
+      ],
+      "slides": 1
+    },
+    {
+      "name": "pres-with-notes.pptx",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/cf80890d16f7ef318155efe5843f99153d199e07/sd/qa/unit/data/pptx/pres-with-notes.pptx",
+      "bytes": 14855,
+      "sha256": "8dd346a43b4637ae236f0494b833521064c539f9204f7c493940a60111739d8b",
+      "application": "LibreOffice/24.2.3.2$Linux_X86_64 LibreOffice_project/420$Build-2",
+      "warnings": [
+        "Slide text follows shape order. Master/layout text, inherited bullet styles, charts, SmartArt, animations and visual positioning may be omitted.",
+        "Slide 1: No supported text was found.",
+        "Slide 2: No supported text was found."
+      ],
+      "slides": 2
+    },
+    {
+      "name": "master-slides.pptx",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/cf80890d16f7ef318155efe5843f99153d199e07/sd/qa/unit/data/pptx/master-slides.pptx",
+      "bytes": 54445,
+      "sha256": "cbc14cf6683c7aa3f5c4b83d70ef405b35c7ae02746e5abcc8bcbedfa235e726",
+      "application": "Microsoft Office PowerPoint",
+      "warnings": [
+        "Slide text follows shape order. Master/layout text, inherited bullet styles, charts, SmartArt, animations and visual positioning may be omitted."
+      ],
+      "slides": 1
+    },
+    {
+      "name": "table-list.pptx",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/cf80890d16f7ef318155efe5843f99153d199e07/sd/qa/unit/data/pptx/table-list.pptx",
+      "bytes": 52249,
+      "sha256": "45bbdf87ec5bcf7d27ccd4edc0e5fc4e11f24b5b15a08a8596e1ca52a25aba49",
+      "application": "Microsoft Office PowerPoint",
+      "warnings": [
+        "Slide text follows shape order. Master/layout text, inherited bullet styles, charts, SmartArt, animations and visual positioning may be omitted.",
+        "Slide 1: Unsupported presentation content (relIds) is omitted; embedded images are not recognized.",
+        "Slide 1: No supported text was found."
+      ],
+      "slides": 1
+    }
+  ]
+}

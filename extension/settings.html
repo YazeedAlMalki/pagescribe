@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PageScribe Settings</title><link rel="stylesheet" href="popup.css"><script type="module" src="settings.js"></script></head>
+<body class="tab"><main class="app">
+  <header class="brand"><span class="logo" aria-hidden="true">P↓</span><div><h1>Settings</h1><p>PAGESCRIBE</p></div></header>
+  <form id="settings-form" class="settings-card">
+    <h2>Cache</h2>
+    <label for="cache-hours">Automatically expire results after (hours)</label>
+    <input id="cache-hours" type="number" min="1" max="720" step="1" value="24" required>
+    <p class="hint">Default: 24 hours. Expired results are unavailable immediately on access; cleanup runs while the extension is active and when it next opens.</p>
+    <h2>Local OCR</h2>
+    <label for="ocr-language">Recognition language</label>
+    <select id="ocr-language"><option value="en">English</option><option value="ar">Arabic</option></select>
+    <label for="ocr-rotation">Rotate images clockwise before OCR</label>
+    <select id="ocr-rotation"><option value="0">0° (EXIF orientation is automatic)</option><option value="90">90°</option><option value="180">180°</option><option value="270">270°</option></select>
+    <label><input id="pdf-force-ocr" type="checkbox"> Force OCR for every PDF page</label>
+    <p class="hint">Automatic PDF mode keeps usable native text and recognizes scanned pages. Force OCR replaces the text layer. Image rotation applies to JPG/PNG; PDF page rotation follows the PDF.</p>
+    <label for="model-cache-hours">Expire OCR models after (hours)</label>
+    <input id="model-cache-hours" type="number" min="1" max="720" step="1" value="24" required>
+    <p class="hint">First download: English 12.02 MiB or Arabic 12.18 MiB (shared detector). Models use a separate 64 MiB cache. JavaScript, WASM and conversion stay on this device. Only model data is downloaded. Valid cached models work offline; missing or expired models require a connection.</p>
+    <p id="model-status" class="hint" role="status">Reading model cache…</p>
+    <button id="clear-models" type="button" class="secondary">Clear OCR models</button>
+    <p class="hint">Clearing models leaves results intact. An active session keeps its loaded models until its job ends. Cleanup runs on access and while the extension is active, not at an exact time while closed.</p>
+    <button type="submit" class="primary">Save settings</button>
+    <p id="cache-status" class="hint" role="status">Reading cache…</p>
+    <button id="clear-cache" type="button" class="secondary">Clear cache now</button>
+    <p class="hint">Clears saved conversion results. Downloaded files and active inputs are retained. Abandoned source files expire after 24 hours.</p>
+  </form>
+  <section class="settings-card" aria-labelledby="directory-heading">
+    <h2 id="directory-heading">Download directory</h2>
+    <p id="directory-name" class="directory-name">Chrome’s default download location</p>
+    <div class="field-row"><button id="choose-directory" type="button" class="secondary">Choose folder…</button><button id="reset-directory" type="button" class="text-button">Use Chrome default</button></div>
+    <p class="hint">Chrome asks for folder access. You may need to grant it again in a new session. Existing files are preserved with numbered names.</p>
+    <p class="hint">“Download &amp; Open” saves the file and opens a Markdown text preview in a browser tab.</p>
+  </section>
+  <section class="settings-card" aria-labelledby="batch-heading">
+    <h2 id="batch-heading">Parallel batches</h2>
+    <p>Up to 8 workers, with a queue for additional files. Requires 4+ GB device RAM; 8+ GB is recommended. Large files may wait for memory reservations to become available.</p>
+    <p class="hint">Processing stays in a dedicated extension tab. Keep it open until the batch finishes. Reopen an interrupted batch from the popup to resume unfinished files.</p>
+  </section>
+  <section class="settings-card" aria-labelledby="about-heading">
+    <h2 id="about-heading">About PageScribe</h2>
+    <p>Inspired by Microsoft MarkItDown's document-to-Markdown concept. PageScribe is an independent browser extension and is not affiliated with or endorsed by Microsoft.</p>
+    <p class="hint">MIT licensed. Microsoft attribution and third-party license notices are included with this extension.</p>
+  </section>
+  <p id="notice" class="notice" role="status" aria-live="polite"></p>
+</main></body></html>

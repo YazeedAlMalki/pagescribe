@@ -1,0 +1,32 @@
+{
+  "version": "0.3.0",
+  "date": "2026-10-05",
+  "package": "build/MarkItDown-0.3.0.zip",
+  "bytes": 6383830,
+  "sha256": "a5f3f9a9f5063e6133057c4ff3ba9122dca3289b59b989fd2bc1575a44c81e92",
+  "nodeTests": {
+    "passed": 78,
+    "failed": 0
+  },
+  "staticFilesChecked": 257,
+  "edgeSource": "passed",
+  "edgePackage": "passed",
+  "manualChrome": "partial: 2 of 9 original checklist groups complete (22.2%); physical disconnect and low-memory hardware waived; unwaived native gaps remain",
+  "ponytailSkill": "not found; not used",
+  "manualChromeEvidence": "tests/ChromeManualAcceptance.md",
+  "manualChromeEvidenceUpdated": "2026-10-05",
+  "manualChromeFollowup": "Real-scan native cancellation, restart and completion observed; complete native scan output not inspected before URL-verification stop. Automated targeted background stop and twelve-page recovery passed. 23 offline corpus cases passed on source and package. PowerPoint section-reference bug fixed. Highest OCR accuracy not accepted.",
+  "acceptanceFollowup": "tests/AcceptanceFollowup2026-10-05.md",
+  "desktopCorpus": "tests/fixtures/independent/libreoffice/SOURCE.json",
+  "offlineCorpus": {
+    "passed": 23,
+    "failed": 0,
+    "physical": false,
+    "source": "passed",
+    "package": "passed"
+  },
+  "waivedByUser": [
+    "physical network disconnection",
+    "real low-memory hardware"
+  ]
+}

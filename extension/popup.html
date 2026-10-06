@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PageScribe</title>
+  <link rel="stylesheet" href="popup.css">
+  <script type="module" src="popup.js"></script>
+</head>
+<body>
+  <main class="app">
+    <header class="brand"><span class="logo" aria-hidden="true">P↓</span><div><h1>PageScribe</h1><p>YOUR FILES. PLAIN MARKDOWN.</p></div><span class="badge">0.3.0</span></header>
+    <p class="intro">A simpler home for your documents.</p>
+    <button id="drop-zone" class="drop-zone" type="button" aria-describedby="formats-note">
+      <span class="upload-icon" aria-hidden="true">↑</span>
+      <strong>Drop your files here</strong>
+      <span>or click to choose files</span>
+      <small>Up to 25 files · 20 MB each · 100 MB total</small>
+    </button>
+    <input id="file-input" type="file" multiple hidden>
+    <div class="field-row"><label for="file-type">File type</label><select id="file-type"><option value="auto">Detect automatically</option></select></div>
+    <p id="formats-note" class="hint">PDF, PPTX, JPG/PNG OCR, HTML, Excel, Word, EPUB, CSV, JSON, XML and ZIP. Select JPEG EXIF explicitly for metadata.</p>
+    <p id="ocr-note" class="hint">OCR: English by default. First model download about 12 MiB; valid cached models work offline. Language, rotation, PDF mode and separate model cache are in Settings. All document processing stays on this device.</p>
+    <section class="batch-section" aria-label="Batch progress">
+      <div class="section-heading"><h2>Files</h2><button id="cancel" type="button" class="text-button" hidden>Cancel batch</button></div>
+      <progress id="progress" value="0" max="1" aria-label="Files finished"></progress>
+      <p id="batch-status" class="hint" role="status">Parallel processing · 4+ GB RAM required</p>
+      <ul id="file-list" class="file-list"><li class="empty">Your converted files will appear here.</li></ul>
+      <button id="resume" type="button" class="secondary" hidden>Open batch / resume unfinished files</button>
+    </section>
+    <section class="output-section" aria-label="Markdown output">
+      <label for="output">Markdown preview</label>
+      <textarea id="output" readonly placeholder="Select a completed file to preview its Markdown." spellcheck="false"></textarea>
+      <p id="output-note" class="hint"></p>
+      <div class="actions">
+        <button id="copy" type="button" class="secondary" disabled>Copy</button>
+        <div class="download-control">
+          <button id="download-toggle" type="button" class="primary" aria-expanded="false" aria-controls="download-menu" disabled>Download <span aria-hidden="true">⌄</span></button>
+          <div id="download-menu" class="download-menu" hidden>
+            <button id="download" type="button">Download</button>
+            <button id="download-open" type="button">Download &amp; Open <small>Save + open Markdown preview</small></button>
+            <button id="open-tab" type="button">Open in new tab</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p id="notice" class="notice" role="status" aria-live="polite"></p>
+    <footer><span id="memory-note">Local processing. No uploads.</span><button id="settings" class="text-button" type="button">⚙ Settings</button></footer>
+  </main>
+</body>
+</html>

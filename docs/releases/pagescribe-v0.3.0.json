@@ -1,0 +1,30 @@
+{
+  "name": "PageScribe",
+  "version": "0.3.0",
+  "date": "2026-10-06",
+  "releaseChannel": "beta",
+  "package": "PageScribe-0.3.0.zip",
+  "bytes": 6384878,
+  "sha256": "865e1a15fb3ec29e22430062722127745f9dbe336fc54dcf6128a5601e9eaacf",
+  "runtimeFiles": 258,
+  "changesFromMarkItDown": [
+    "manifest.json",
+    "popup.html",
+    "settings.html",
+    "viewer.html"
+  ],
+  "nodeTests": {
+    "passed": 78,
+    "failed": 0
+  },
+  "staticFilesChecked": 258,
+  "packagedBrowser": "regression plus all 10 Phase 2 groups passed",
+  "assetEquality": "complete entry-set and byte equality passed",
+  "manualChrome": "2/9 complete; unwaived gaps remain",
+  "waived": [
+    "physical network disconnection",
+    "real low-memory hardware"
+  ],
+  "projectLicense": "MIT",
+  "published": false
+}

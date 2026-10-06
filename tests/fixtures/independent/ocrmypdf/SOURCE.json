@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-04",
+  "provenance": "OCRmyPDF independent test resources; see README.rst and REUSE.toml. skew.pdf is a simulated-skew derivative, not a photographed skew sample. One page each; not long-scan lifecycle evidence.",
+  "files": [
+    {
+      "name": "c03-29.pdf",
+      "url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/main/tests/resources/c03-29.pdf",
+      "bytes": 167938,
+      "sha256": "c2ff83af7d028c95209cc7eebdf80fd5bb4cd292973ed6601e4bab7d1929f201"
+    },
+    {
+      "name": "linn.pdf",
+      "url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/main/tests/resources/linn.pdf",
+      "bytes": 75273,
+      "sha256": "e923f6e8e036185f8f2aae5f7fdeefd8ac658d627cebd4ebf630de4cbf0a2d64"
+    },
+    {
+      "name": "linn.txt",
+      "url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/main/tests/resources/linn.txt",
+      "bytes": 4567,
+      "sha256": "18fbd25ca0fc7783f3b7f0e93e91e9408d2d517739f646fecbdf6209628204b1"
+    },
+    {
+      "name": "README.rst",
+      "url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/main/tests/resources/README.rst",
+      "bytes": 6117,
+      "sha256": "6bdb93f6e44036a3cce7f2166b8a30bf825b18a9a14581ebb0d22dbd4418ca9b"
+    },
+    {
+      "name": "REUSE.toml",
+      "url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/main/REUSE.toml",
+      "bytes": 6167,
+      "sha256": "1cd7fc8fe5201280287d92b02ee4b9a7b14991ae4629389c9253f8d4513a76ad"
+    },
+    {
+      "name": "skew.pdf",
+      "url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/main/tests/resources/skew.pdf",
+      "bytes": 76013,
+      "sha256": "6be6b54d49df71351974774404e299b756d8d3cbeb2c4a31f15fae8dd983d72f"
+    }
+  ]
+}
