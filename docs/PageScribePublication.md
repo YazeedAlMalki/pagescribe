@@ -1,6 +1,6 @@
 # PageScribe publication — October 6, 2026
 
-PageScribe is the new public name of the extension previously developed as MarkItDown. The intended public GitHub repository is `YazeedAlMalki/pagescribe`, with a `v0.3.0` beta prerelease. MIT licensing, Microsoft attribution and dependency notices are retained. GitHub publication has not yet been verified.
+PageScribe is the new public name of the extension previously developed as MarkItDown. The public GitHub repository is [YazeedAlMalki/pagescribe](https://github.com/YazeedAlMalki/pagescribe), with a published [v0.3.0 beta prerelease](https://github.com/YazeedAlMalki/pagescribe/releases/tag/v0.3.0). MIT licensing, Microsoft attribution and dependency notices are retained. GitHub publication was verified on October 6, 2026: the repository is public, the release is a published prerelease, and both uploaded asset digests match the local release files. The release targets source commit `e152503347bd5ac76670313836283a48f14b04dc`.
 
 ## Rename scope
 

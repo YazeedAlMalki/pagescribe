@@ -8,6 +8,9 @@ The original roadmaps and implementation handoffs are historical: their cloud pl
 
 ## Install
 
+Download [PageScribe v0.3.0 beta](https://github.com/YazeedAlMalki/pagescribe/releases/tag/v0.3.0) and extract the attached **PageScribe-0.3.0.zip** to install the prepared extension. The release also includes SHA-256 checksums.
+
+
 For a source checkout, run the dependency installation and build commands below first: generated vendor assets are excluded from Git. Then load the `extension/` directory from Chrome's Extensions page with Developer mode → **Load unpacked**. Chrome/Edge 130 or newer is required. Reload the extension and reopen its tabs when updating.
 
 The release archive is `build/PageScribe-0.3.0.zip`. Extract it before loading. This is an unpacked local release; Chrome Web Store publication is outside scope. A processing tab owns the workers: closing the toolbar popup is safe, but keep the processing tab open until completion. An interrupted batch can be reopened within the 24-hour recovery window.
