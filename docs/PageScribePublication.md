@@ -2,6 +2,8 @@
 
 ## Current package: 0.3.1 beta
 
+Published on October 6, 2026: [download the beta](https://github.com/YazeedAlMalki/pagescribe/releases/tag/v0.3.1). GitHub confirmed the uploaded archive digest matches the verified local package.
+
 The logo update adds [PageScribe branding](branding/README.md), four extension icon sizes and popup, Settings and tab icons. [Release identity](releases/pagescribe-v0.3.1.json) records the archive hash. Static checks and packaged browser icon checks passed; all conversion code and dependencies match 0.3.0 exactly. No additional native acceptance is claimed.
 
 ## 0.3.0 publication record

@@ -12,5 +12,5 @@
   "conversionBaseline": "0.3.0: 78 Node tests and packaged browser suites passed",
   "manualChrome": "2/9 complete; unwaived gaps remain",
   "projectLicense": "MIT",
-  "published": false
+  "published": true
 }
