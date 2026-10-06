@@ -1,3 +1,27 @@
+# PageScribe v0.3.1 beta
+
+PageScribe now has its own page-and-fountain-pen logo. This update adds Chrome extension and toolbar icons, replaces the popup and Settings monogram, adds browser-tab icons and displays the logo in the GitHub README.
+
+## Install
+
+Download **PageScribe-0.3.1.zip**, extract it, then open Chrome/Edge Extensions, enable Developer mode and select **Load unpacked** for the directory containing manifest.json. Existing unpacked installations can replace their files in the same folder and click Reload. Keep the processing tab open during conversion.
+
+## Verification
+
+Static checks passed for 262 runtime files. All four PNG icon sizes were verified. The packaged popup, Settings and preview pages loaded their icons successfully, and the popup was visually inspected. ZIP contents match the local runtime files; all conversion JavaScript, dependencies, models and notices are byte-identical to 0.3.0. The 78-test and full browser-suite results from 0.3.0 remain the conversion baseline; they were not rerun for this visual update.
+
+This remains a beta. Native acceptance is still 2/9 groups complete; OCR and complex-layout limitations remain. See the [README](https://github.com/YazeedAlMalki/pagescribe/blob/v0.3.1/README.md). MIT licensing, Microsoft MarkItDown attribution and dependency notices are retained. PageScribe is independent and is not affiliated with or endorsed by Microsoft.
+
+## Download identity
+
+Size: **6,403,715 bytes**. SHA-256:
+
+```text
+9edd13e5077364e2ddccf2b64a952f0a9b9366f0d4c51f3293578635f3309cc6  PageScribe-0.3.1.zip
+```
+
+---
+
 # PageScribe v0.3.0 beta
 
 PageScribe is the new name of this independent local document-to-Markdown extension. It is inspired by [Microsoft MarkItDown](https://github.com/microsoft/markitdown); it is not affiliated with or endorsed by Microsoft. Microsoft attribution, the project MIT license and all dependency notices are included.

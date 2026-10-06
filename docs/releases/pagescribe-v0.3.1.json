@@ -1,0 +1,16 @@
+{
+  "name": "PageScribe",
+  "version": "0.3.1",
+  "date": "2026-10-06",
+  "releaseChannel": "beta",
+  "package": "PageScribe-0.3.1.zip",
+  "bytes": 6403715,
+  "sha256": "9edd13e5077364e2ddccf2b64a952f0a9b9366f0d4c51f3293578635f3309cc6",
+  "runtimeFiles": 262,
+  "changes": "Logo, extension/toolbar icons, page favicons and version metadata only",
+  "verification": "Static checks, PNG dimensions, packaged browser icon loading, visual popup review, full package equality and unchanged conversion code",
+  "conversionBaseline": "0.3.0: 78 Node tests and packaged browser suites passed",
+  "manualChrome": "2/9 complete; unwaived gaps remain",
+  "projectLicense": "MIT",
+  "published": false
+}

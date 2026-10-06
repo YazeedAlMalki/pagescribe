@@ -1,19 +1,21 @@
+<p align="center"><img src="docs/branding/pagescribe-logo.png" width="128" height="128" alt="PageScribe logo: a page and fountain pen"></p>
+
 # PageScribe — local document converter
 
 **Your files. Plain Markdown.** PageScribe is an independent Chrome/Edge extension inspired by [Microsoft MarkItDown](https://github.com/microsoft/markitdown). It brings document-to-Markdown conversion into the browser, including local English/Arabic OCR. It is not affiliated with or endorsed by Microsoft. Microsoft's MIT notice and all dependency notices are preserved.
 
-Version **0.3.0 beta** includes searchable PDF extraction, local English/Arabic image OCR, per-page scanned-PDF recognition, and PowerPoint text extraction. Native Chrome acceptance remains **2 of 9 groups complete**; material OCR errors remain. See the [release notes](RELEASE_NOTES.md), [current acceptance](tests/AcceptanceFollowup2026-10-05.md), and [PageScribe rename and verification](docs/PageScribePublication.md).
+Version **0.3.1 beta** includes searchable PDF extraction, local English/Arabic image OCR, per-page scanned-PDF recognition, and PowerPoint text extraction. Native Chrome acceptance remains **2 of 9 groups complete**; material OCR errors remain. See the [release notes](RELEASE_NOTES.md), [current acceptance](tests/AcceptanceFollowup2026-10-05.md), and [PageScribe publication and verification](docs/PageScribePublication.md).
 
 The original roadmaps and implementation handoffs are historical: their cloud plans, estimates and older statuses do not define the current scope. Phases 1 and 2 are implemented within the limits below; Phase 3 cloud OCR and API key handling are cancelled. Original local briefs are preserved; exported historical copies only normalize machine paths. See the [documentation index](docs/README.md).
 
 ## Install
 
-Download [PageScribe v0.3.0 beta](https://github.com/YazeedAlMalki/pagescribe/releases/tag/v0.3.0) and extract the attached **PageScribe-0.3.0.zip** to install the prepared extension. The release also includes SHA-256 checksums.
+Download [PageScribe v0.3.1 beta](https://github.com/YazeedAlMalki/pagescribe/releases/tag/v0.3.1) and extract the attached **PageScribe-0.3.1.zip** to install the prepared extension. The release also includes SHA-256 checksums.
 
 
 For a source checkout, run the dependency installation and build commands below first: generated vendor assets are excluded from Git. Then load the `extension/` directory from Chrome's Extensions page with Developer mode → **Load unpacked**. Chrome/Edge 130 or newer is required. Reload the extension and reopen its tabs when updating.
 
-The release archive is `build/PageScribe-0.3.0.zip`. Extract it before loading. This is an unpacked local release; Chrome Web Store publication is outside scope. A processing tab owns the workers: closing the toolbar popup is safe, but keep the processing tab open until completion. An interrupted batch can be reopened within the 24-hour recovery window.
+The release archive is `build/PageScribe-0.3.1.zip`. Extract it before loading. This is an unpacked local release; Chrome Web Store publication is outside scope. A processing tab owns the workers: closing the toolbar popup is safe, but keep the processing tab open until completion. An interrupted batch can be reopened within the 24-hour recovery window.
 
 ## Formats
 

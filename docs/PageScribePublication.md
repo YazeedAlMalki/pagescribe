@@ -1,5 +1,11 @@
 # PageScribe publication — October 6, 2026
 
+## Current package: 0.3.1 beta
+
+The logo update adds [PageScribe branding](branding/README.md), four extension icon sizes and popup, Settings and tab icons. [Release identity](releases/pagescribe-v0.3.1.json) records the archive hash. Static checks and packaged browser icon checks passed; all conversion code and dependencies match 0.3.0 exactly. No additional native acceptance is claimed.
+
+## 0.3.0 publication record
+
 PageScribe is the new public name of the extension previously developed as MarkItDown. The public GitHub repository is [YazeedAlMalki/pagescribe](https://github.com/YazeedAlMalki/pagescribe), with a published [v0.3.0 beta prerelease](https://github.com/YazeedAlMalki/pagescribe/releases/tag/v0.3.0). MIT licensing, Microsoft attribution and dependency notices are retained. GitHub publication was verified on October 6, 2026: the repository is public, the release is a published prerelease, and both uploaded asset digests match the local release files. The release targets source commit `e152503347bd5ac76670313836283a48f14b04dc`.
 
 ## Rename scope

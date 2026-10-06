@@ -2,7 +2,7 @@
 
 **Current project name: PageScribe.** See [PageScribe publication](PageScribePublication.md) for the rename, current package and verification. Earlier MarkItDown records are historical.
 
-Use the [README](../README.md) for current scope, installation, privacy, models and build commands; [release notes](../RELEASE_NOTES.md) for the proposed beta; [publication review](PublicationReview.md) for publication decisions and verification; and [fixture provenance](FixtureProvenance.md) for reproducible test setup.
+Use the [README](../README.md) for current scope, installation, privacy, models and build commands; [release notes](../RELEASE_NOTES.md) for the beta releases; [publication review](PublicationReview.md) for publication decisions and verification; and [fixture provenance](FixtureProvenance.md) for reproducible test setup.
 
 Current acceptance is recorded in [October 5 follow-up](../tests/AcceptanceFollowup2026-10-05.md), [manual checklist](../tests/ManualAcceptanceChecklist.md), and [native Chrome report](../tests/ChromeManualAcceptance.md). The [Phase 2 verification record](../tests/Phase2Verification.md) retains older scoped results. [Original release identity](releases/v0.3.0.json) and [publication candidate identity](releases/v0.3.0-publication.json) distinguish the archives before and after adding license notices. Neither record claims a completed upload.
 
